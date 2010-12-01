@@ -1,0 +1,34 @@
+<exit><steps><table><flecha><estado>S1</estado><letra>a</letra><destino>0</destino><letra>b</letra><destino>[S2]</destino><letra>c</letra><destino>0</destino></flecha><flecha><estado>S0</estado><letra>a</letra><destino>[S1]</destino><letra>b</letra><destino>0</destino><letra>c</letra><destino>0</destino></flecha><flecha><estado>S2</estado><letra>a</letra><destino>0</destino><letra>b</letra><destino>0</destino><letra>c</letra><destino>0</destino></flecha></table></steps><result><authomata>
+	<type>
+		<item>AutomataFND</item>
+	</type>
+	<alphabet>
+		<item>a</item>
+		<item>b</item>
+		<item>c</item>
+	</alphabet>
+	<states>
+		<state>S1</state>
+		<state>S0</state>
+		<state>S2</state>
+	</states>
+	<init>
+		<state>S0</state>
+	</init>
+	<finals>
+		<state>S0</state>
+		<state>S2</state>
+	</finals>
+	<arrows>
+		<arrow>
+		<state>S1</state>
+		<state>S2</state>
+		<item>b</item>
+	</arrow>
+		<arrow>
+		<state>S0</state>
+		<state>S1</state>
+		<item>a</item>
+	</arrow>
+	</arrows>
+</authomata></result></exit>
