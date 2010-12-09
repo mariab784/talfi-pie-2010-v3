@@ -9,7 +9,7 @@ import accesoBD.Mensajero;
 import vista.vistaGrafica.AristaAP;
 /**
  * Clase que implementa la funcionalidad de los automatas de pila
- *  @author Rocío Barrigüete, Mario Huete, Luis San Juan 
+ *  @author Rocï¿½o Barrigï¿½ete, Mario Huete, Luis San Juan 
  *
  */
 
@@ -251,8 +251,8 @@ public class AutomataPila extends AutomataFND implements Automata{
 	}
 
 	/**
-	 * Método que introduce nuevo autómata de pila.
-	 * @param a , el nuevo autómata de pila.
+	 * Mï¿½todo que introduce nuevo autï¿½mata de pila.
+	 * @param a , el nuevo autï¿½mata de pila.
 	 */
 	public void setAPNuevo(ArrayList<AristaAP> a) {
 
@@ -260,7 +260,7 @@ public class AutomataPila extends AutomataFND implements Automata{
 	}
 
 	/**
-	 * Método que devuelve el booleano que indica si el ap es determinista
+	 * Mï¿½todo que devuelve el booleano que indica si el ap es determinista
 	 * @return apd , booleano que indica determinismo.
 	 */
 	public boolean getApd() {
@@ -269,7 +269,7 @@ public class AutomataPila extends AutomataFND implements Automata{
 	}
 
 	/**
-	 * Método que devuelve el alfabeto del autómata de pila.
+	 * Mï¿½todo que devuelve el alfabeto del autï¿½mata de pila.
 	 * @return alfabeto , el alfabeto de entrada.
 	 */
 	public Alfabeto getAlfabeto() {
@@ -278,7 +278,7 @@ public class AutomataPila extends AutomataFND implements Automata{
 	}
 	
 	/**
-	 * Método que devuelve el estado inicial del autómata de pila.
+	 * Mï¿½todo que devuelve el estado inicial del autï¿½mata de pila.
 	 * @return estadoInicial.
 	 */
 	public String getEstadoInicial() {
@@ -287,7 +287,7 @@ public class AutomataPila extends AutomataFND implements Automata{
 	}
 
 	/**
-	 * Método que devuelve todos los estados del autómata de pila.
+	 * Mï¿½todo que devuelve todos los estados del autï¿½mata de pila.
 	 * @return estados.
 	 */
 	public ArrayList<String> getEstados() {
@@ -296,7 +296,7 @@ public class AutomataPila extends AutomataFND implements Automata{
 	}
 
 	/**
-	 * Método que devuelve los estados finales del autómata de pila.
+	 * Mï¿½todo que devuelve los estados finales del autï¿½mata de pila.
 	 * @return estadosFinales.
 	 */
 	public ArrayList<String> getEstadosFinales() {
@@ -315,7 +315,7 @@ public class AutomataPila extends AutomataFND implements Automata{
 	}
 
 	/**
-	 * Método que inserta un estado nuevo en autómata de pila
+	 * Mï¿½todo que inserta un estado nuevo en autï¿½mata de pila
 	 * @param estado.
 	 */
 	public void insertaEstado(String estado) {
@@ -326,7 +326,7 @@ public class AutomataPila extends AutomataFND implements Automata{
 	}
 
 	/**
-	 * Método que inserta un alfabeto de entrada en un autómata de pila.
+	 * Mï¿½todo que inserta un alfabeto de entrada en un autï¿½mata de pila.
 	 * @param alfabeto.
 	 */
 	public void setAlfabeto(Alfabeto alfabeto) {
@@ -335,7 +335,7 @@ public class AutomataPila extends AutomataFND implements Automata{
 	}
 	
 	/**
-	 * Método que inserta el estado inicial de un autómata de pila.
+	 * Mï¿½todo que inserta el estado inicial de un autï¿½mata de pila.
 	 * @param estado.
 	 */
 	public void setEstadoInicial(String estado) {
@@ -344,7 +344,7 @@ public class AutomataPila extends AutomataFND implements Automata{
 	}
 
 	/**
-	 * Método que inserta una lista de estados en un autómata de pila.
+	 * Mï¿½todo que inserta una lista de estados en un autï¿½mata de pila.
 	 * @param estados.
 	 */
 	public void setEstados(ArrayList<String> estados) {
@@ -353,7 +353,7 @@ public class AutomataPila extends AutomataFND implements Automata{
 	}
 
 	/**
-	 * Método que inserta una lista de estados finales en un autómata de pila.
+	 * Mï¿½todo que inserta una lista de estados finales en un autï¿½mata de pila.
 	 * @param estados.
 	 */
 	public void setEstadosFinales(ArrayList<String> estados) {
@@ -362,7 +362,7 @@ public class AutomataPila extends AutomataFND implements Automata{
 	}
 
 	/**
-	 * Método que inserta un estado final de un autómata de pila.
+	 * Mï¿½todo que inserta un estado final de un autï¿½mata de pila.
 	 * @param estado.
 	 */
 	public void setEstadoFinal(String estado) {
@@ -371,7 +371,7 @@ public class AutomataPila extends AutomataFND implements Automata{
 	}
 
 	/**
-	 * Método que inserta un estado (no final) en un autómata de pila.
+	 * Mï¿½todo que inserta un estado (no final) en un autï¿½mata de pila.
 	 * @param estado.
 	 */
 	public void setEstadoNoFinal(String estado) {
@@ -380,7 +380,7 @@ public class AutomataPila extends AutomataFND implements Automata{
 	}
 
 	/**
-	 * Método que devuelve las coordenadas de un estado.
+	 * Mï¿½todo que devuelve las coordenadas de un estado.
 	 * @param estado.
 	 * @return coordenadas.
 	 */
@@ -390,7 +390,7 @@ public class AutomataPila extends AutomataFND implements Automata{
 	}
 
 	/**
-	 * Método que inserta nuevas coordenadas a un estado del autómata de pila.
+	 * Mï¿½todo que inserta nuevas coordenadas a un estado del autï¿½mata de pila.
 	 * @param estado , cord.
 	 */
 	public void setCoordenadas(String estado, Coordenadas cord) {
@@ -400,7 +400,7 @@ public class AutomataPila extends AutomataFND implements Automata{
 	}
 
 	/**
-	 * Método que verifica si existem coordenadas.
+	 * Mï¿½todo que verifica si existem coordenadas.
 	 * @return bool.
 	 */
 	public boolean hayCoordenadas() {
@@ -409,7 +409,7 @@ public class AutomataPila extends AutomataFND implements Automata{
 	}
 
 	/**
-	 * Método que devuelve la lista de estados a la que se llega desde el estado que
+	 * Mï¿½todo que devuelve la lista de estados a la que se llega desde el estado que
 	 * se pasa con la letra que se le pasa.
 	 * @param estado , estado incial desde el que se buscan los destinos.
 	 * @param letra , letra que etiqueta las transiciones que se devuelven.
@@ -433,11 +433,11 @@ public class AutomataPila extends AutomataFND implements Automata{
     }
 
 	/**
-	 * Método que devuelve una lista con las letras de las transiciones entre dos
-	 * estados que se pasan como parámetros.
+	 * Mï¿½todo que devuelve una lista con las letras de las transiciones entre dos
+	 * estados que se pasan como parï¿½metros.
 	 * @param origen , estado de inicio para buscar las tansiciones.
-	 * @param destino , estado de finalización para buscar las transiciones.
-	 * @return simbolos , ArrayList con las letras que tiene la transición.
+	 * @param destino , estado de finalizaciï¿½n para buscar las transiciones.
+	 * @return simbolos , ArrayList con las letras que tiene la transiciï¿½n.
 	 */
 	public ArrayList<String> getLetraTransicion(String origen, String destino) {
 		// TODO Auto-generated method stub
@@ -457,11 +457,11 @@ public class AutomataPila extends AutomataFND implements Automata{
 	}
 
 	/**
-	 * Método que devuelve una lista con la salida de la transición entre dos
-	 * estados que se pasan como parámetros.
+	 * Mï¿½todo que devuelve una lista con la salida de la transiciï¿½n entre dos
+	 * estados que se pasan como parï¿½metros.
 	 * @param origen , estado de inicio para buscar la salida.
-	 * @param destino , estado de finalización para buscar la salida.
-	 * @return estados , ArrayList con la salida que tiene la transición.
+	 * @param destino , estado de finalizaciï¿½n para buscar la salida.
+	 * @return estados , ArrayList con la salida que tiene la transiciï¿½n.
 	 */
 	public ArrayList<String> getSalidaTransicion(String origen, String destino) {
 		// TODO Auto-generated method stub
@@ -481,7 +481,7 @@ public class AutomataPila extends AutomataFND implements Automata{
 	}
 
 	/**
-	 * Método que devuelve el autómata de pila en cuestión.
+	 * Mï¿½todo que devuelve el autï¿½mata de pila en cuestiï¿½n.
 	 * @return automata.
 	 */
 	public ArrayList<AristaAP> getAutomataPila() {
@@ -490,7 +490,7 @@ public class AutomataPila extends AutomataFND implements Automata{
 	}
 
 	/**
-	 * Método que devuelve el alfabeto de pila.
+	 * Mï¿½todo que devuelve el alfabeto de pila.
 	 * @return alfabetoPila.
 	 */
 	public Alfabeto_Pila getAlfabetoPila() {
@@ -498,7 +498,7 @@ public class AutomataPila extends AutomataFND implements Automata{
 	}
 
 	/**
-	 * Método que inserta el alfabeto de pila a un autómata de pila.
+	 * Mï¿½todo que inserta el alfabeto de pila a un autï¿½mata de pila.
 	 * @param alf.
 	 */
 	public void setAlfabetoPila(Alfabeto_Pila alf) {
@@ -616,7 +616,7 @@ public class AutomataPila extends AutomataFND implements Automata{
 	public void setDeterminista(boolean b){apd = b;}
 	
 	/**
-	 * Método que verifica si una palabra es reconocida por el autómata de pila.
+	 * Mï¿½todo que verifica si una palabra es reconocida por el autï¿½mata de pila.
 	 * @param palabra.
 	 * @param boolean estadoFinal, true si acepta por estado final, false si es por pila vacia
 	 * @return bool.
@@ -719,16 +719,16 @@ public class AutomataPila extends AutomataFND implements Automata{
 		ArrayList<String> palabras = new ArrayList<String>(1);
 		int i = 0;
 		while (i < maximo){
-			String añade = new String("");
+			String anade = new String("");
 			for (int j = 0; j < Math.pow(i,2) && j < 10; j++){
 				for (int s = 0; s < i; s++){
 					Random a = new Random();
 					int z = a.nextInt(this.alfabetoPila.getListaLetras().size());
-					añade+=this.alfabetoPila.getListaLetras().get(z);
+					anade+=this.alfabetoPila.getListaLetras().get(z);
 				}
 			}
-			if (!palabras.contains(añade))
-				palabras.add(añade);
+			if (!palabras.contains(anade))
+				palabras.add(anade);
 		}
 		
 		return palabras;

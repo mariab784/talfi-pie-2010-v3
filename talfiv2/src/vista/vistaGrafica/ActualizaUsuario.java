@@ -107,12 +107,12 @@ private static final long serialVersionUID = 1L;
 		JLabel p=new JLabel(m.devuelveMensaje("vista.contraseÃ±a",2));
 		password=new JPasswordField(20);
 		try {
-			String contraseña=AccesBDUsuarios.getInstancia().buscarUsuarioContraseña(usr.getNombre());
-			password.setText(contraseña);
+			String contrasena=AccesBDUsuarios.getInstancia().buscarUsuarioContrasena(usr.getNombre());
+			password.setText(contrasena);
 			password.addKeyListener(new OyenteKey());
 			JLabel rp=new JLabel(m.devuelveMensaje("vista.repetir",2));
 			repassword=new JPasswordField(20);
-			repassword.setText(contraseña);
+			repassword.setText(contrasena);
 			repassword.addKeyListener(new OyenteKey());
 			JLabel d=new JLabel(m.devuelveMensaje("vista.dni",2));
 			dni=new JTextField(20);

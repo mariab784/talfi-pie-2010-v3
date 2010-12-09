@@ -10,9 +10,9 @@ import vista.*;
  * @author Miguel
  *
  */
-public class Lanzador {
+public class LanzadorConsola {
 	
-	public Lanzador(){
+	public LanzadorConsola(){
 	}
 	
 	public void ejecuta(){
