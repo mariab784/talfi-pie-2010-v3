@@ -26,7 +26,7 @@ public class LanzadorConsola {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Lanzador l=new Lanzador();
+		LanzadorConsola l=new LanzadorConsola();
 		l.ejecuta();
 	}
 
