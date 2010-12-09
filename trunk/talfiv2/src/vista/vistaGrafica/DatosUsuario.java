@@ -66,8 +66,8 @@ public class DatosUsuario extends JPanel {
 		password.setEditable(false);
 		password.setEnabled(true);
 		try {
-			String contraseña=AccesBDUsuarios.getInstancia().buscarUsuarioContraseña(usr.getNombre());
-			password.setText(contraseña);
+			String contrasena=AccesBDUsuarios.getInstancia().buscarUsuarioContrasena(usr.getNombre());
+			password.setText(contrasena);
 			JLabel d=new JLabel(m.devuelveMensaje("vista.dni2",2));
 			dni=new JTextField(20);
 			Integer i=(Integer)usr.getDni();
