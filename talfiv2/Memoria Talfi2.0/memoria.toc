@@ -1,0 +1,46 @@
+\select@language {spanish}
+\contentsline {chapter}{\numberline {1}Resumen}{5}{chapter.1}
+\contentsline {section}{\numberline {1.1}TALFi (Versi\'on en castellano)}{5}{section.1.1}
+\contentsline {section}{\numberline {1.2}TALFi (English version)}{5}{section.1.2}
+\contentsline {chapter}{\numberline {2}Objetivos}{7}{chapter.2}
+\contentsline {chapter}{\numberline {3}Informaci\'on}{9}{chapter.3}
+\contentsline {section}{\numberline {3.1}Antecedentes}{9}{section.3.1}
+\contentsline {section}{\numberline {3.2}Problemas encontrados y resueltos en\\ TALFi}{10}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Minimizaci\'on}{10}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Intento de reconocimiento de palabras simulando la ejecuci\'on de un aut\'omata de pila\\}{13}{subsection.3.2.2}
+\contentsline {section}{\numberline {3.3}Introducci\'on a la ampliaci\'on de la aplicaci\'on}{16}{section.3.3}
+\contentsline {section}{\numberline {3.4}Conceptos te\'oricos de la ampliaci\'on}{18}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Aut\'omata de pila}{18}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Gram\'atica independiente de contexto}{22}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.3}Lenguaje independiente de contexto}{25}{subsection.3.4.3}
+\contentsline {subsection}{\numberline {3.4.4}M\'aquina de Turing}{26}{subsection.3.4.4}
+\contentsline {subsection}{\numberline {3.4.5}Algoritmo CYK\\}{31}{subsection.3.4.5}
+\contentsline {section}{\numberline {3.5}Lenguaje generado por un aut\'omata de pila}{33}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}Pasos de simplificaci\'on antes y despu\'es de realizar transformaciones FNC o FNG}{33}{subsection.3.5.1}
+\contentsline {subsection}{\numberline {3.5.2}Algoritmo de paso de AP $\rightarrow $ gram\'atica\\}{35}{subsection.3.5.2}
+\contentsline {subsection}{\numberline {3.5.3}Algoritmo de simplificaci\'on gram\'atica independiente de contexto a FNG}{37}{subsection.3.5.3}
+\contentsline {subsection}{\numberline {3.5.4}Algoritmo de simplificaci\'on gram\'atica independiente de contexto a FNC\\}{41}{subsection.3.5.4}
+\contentsline {subsection}{\numberline {3.5.5}Generaci\'on aleatoria de palabras}{45}{subsection.3.5.5}
+\contentsline {subsection}{\numberline {3.5.6}Palabras reconocidas por un aut\'omata de pila}{46}{subsection.3.5.6}
+\contentsline {section}{\numberline {3.6}M\'aquinas de Turing}{46}{section.3.6}
+\contentsline {subsection}{\numberline {3.6.1}Diferencias entre m\'aquinas de Turing con y sin estados finales}{46}{subsection.3.6.1}
+\contentsline {subsection}{\numberline {3.6.2}Algoritmo de reconocimiento}{47}{subsection.3.6.2}
+\contentsline {subsection}{\numberline {3.6.3}Ampliaciones y problemas}{48}{subsection.3.6.3}
+\contentsline {section}{\numberline {3.7}Cambios destacables en TALFi 2.0}{48}{section.3.7}
+\contentsline {subsection}{\numberline {3.7.1}Interfaz gr\'afica}{48}{subsection.3.7.1}
+\contentsline {subsection}{\numberline {3.7.2}Ejercicios\\}{53}{subsection.3.7.2}
+\contentsline {chapter}{\numberline {4}Entorno \textlatin {\LaTeX }{}}{57}{chapter.4}
+\contentsline {section}{\numberline {4.1}\textlatin {\LaTeX }{}}{57}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Introducc\'on a \textlatin {\LaTeX }{}}{57}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Descripci\'on:}{57}{subsection.4.1.2}
+\contentsline {section}{\numberline {4.2}Uso}{58}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Uso de \textlatin {\LaTeX }en la herramienta TALFi\\}{60}{subsection.4.2.1}
+\contentsline {section}{\numberline {4.3}LatexCodeConverter\\}{60}{section.4.3}
+\contentsline {section}{\numberline {4.4}TraductorHTML}{66}{section.4.4}
+\contentsline {section}{\numberline {4.5}Entornos \textlatin {\LaTeX }{} utilizados}{67}{section.4.5}
+\contentsline {chapter}{\numberline {5}Anexos}{69}{chapter.5}
+\contentsline {section}{\numberline {5.1}Ampliaci\'on del Manual de Usuario}{69}{section.5.1}
+\contentsline {section}{\numberline {5.2}Cambios en la implementaci\'on}{70}{section.5.2}
+\contentsline {section}{\numberline {5.3}Estructura XML de los ejercicios de aut\'omatas de pila}{72}{section.5.3}
+\contentsline {section}{\numberline {5.4}Estructura XML de los ejercicios de m\'aquinas de Turing}{76}{section.5.4}
+\contentsline {chapter}{\numberline {6}Palabras clave}{81}{chapter.6}
