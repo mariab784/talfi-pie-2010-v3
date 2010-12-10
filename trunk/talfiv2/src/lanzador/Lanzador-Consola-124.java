@@ -10,9 +10,9 @@ import vista.*;
  * @author Miguel
  *
  */
-public class LanzadorConsola {
+public class Lanzador {
 	
-	public LanzadorConsola(){
+	public Lanzador(){
 	}
 	
 	public void ejecuta(){
@@ -26,7 +26,7 @@ public class LanzadorConsola {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		LanzadorConsola l=new LanzadorConsola();
+		Lanzador l=new Lanzador();
 		l.ejecuta();
 	}
 

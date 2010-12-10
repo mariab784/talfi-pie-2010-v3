@@ -88,9 +88,9 @@ public class LoginUsuarios extends JPanel {
 			for(int i=0;i<pass.length;i++)
 				passw+=pass[i];
 			try {
-				String contrasenaBD=AccesBDUsuarios.getInstancia().buscarUsuarioContrasena(nombre);
+				String contraseñaBD=AccesBDUsuarios.getInstancia().buscarUsuarioContraseña(nombre);
 				boolean correcto=true;
-				correcto=passw.equals(contrasenaBD);
+				correcto=passw.equals(contraseñaBD);
 				if(!correcto)
 					JOptionPane.showMessageDialog(null,m.devuelveMensaje("vista.datos",2),"Error",JOptionPane.ERROR_MESSAGE);
 				else {
@@ -130,9 +130,9 @@ public class LoginUsuarios extends JPanel {
 				for(int i=0;i<pass.length;i++)
 					passw+=pass[i];
 				try {
-					String contrasenaBD=AccesBDUsuarios.getInstancia().buscarUsuarioContrasena(nombre);
+					String contraseñaBD=AccesBDUsuarios.getInstancia().buscarUsuarioContraseña(nombre);
 					boolean correcto=true;
-					correcto=passw.equals(contrasenaBD);
+					correcto=passw.equals(contraseñaBD);
 					if(!correcto)
 						JOptionPane.showMessageDialog(null,m.devuelveMensaje("vista.datos",2),"Error",JOptionPane.ERROR_MESSAGE);
 					else {
