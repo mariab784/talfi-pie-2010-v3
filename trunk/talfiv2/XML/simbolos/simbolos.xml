@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<mensajes>
+	<simbolos>
+		<cima>Z</cima>
+		<cimaVacia>X</cimaVacia>
+		<blanco>#</blanco>
+		<lambda>\</lambda>
+		<separador>/</separador>
+		<auxvariable>G</auxvariable>
+		<auxtraduccion>aux</auxtraduccion>
+		<ultimatraduccion>Z</ultimatraduccion>
+		<comienzo>A</comienzo>
+		<nombreAux>aux</nombreAux>
+		<iniNombreAux>iniaux</iniNombreAux>
+		<constantVar>C</constantVar>
+		<constantVar2>D</constantVar2>
+		<lambdalatex>$\lambda$</lambdalatex>
+	</simbolos>
+</mensajes>
