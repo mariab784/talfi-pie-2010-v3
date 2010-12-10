@@ -187,7 +187,7 @@ public class MinimizacionAFD implements Algoritmo{
 	
 	/**
 	 *Se encarga de ir recorriendo la tabla y comprobar si hay alguna casilla que modificar
-	 *Ademï¿½s marca los estados por los que vamos a realizar la minimizaciï¿½n 
+	 *Además marca los estados por los que vamos a realizar la minimización 
 	 * 
 	*/
 	private void paso(){   //El metodo paso muestra la tabla por consola y luego marca
@@ -928,7 +928,7 @@ public class MinimizacionAFD implements Algoritmo{
 	 * 
 	 */
 	public Automata ejecutar(boolean pasos) {
-		automataEntrada=aniadirIndices(automataEntrada);
+		automataEntrada=añadirIndices(automataEntrada);
 		automataSalida=new AutomataFD();
 		controlador=Controlador_imp.getInstancia();
 		
@@ -1168,7 +1168,7 @@ private String traducirXML(Automata automata) {
 	
 	public String getXMLLatex(){return xmllatex;}
 	
-	private Automata aniadirIndices(Automata a) {
+	private Automata añadirIndices(Automata a) {
 		Automata automata=new AutomataFD();
 		Iterator<String> itEst=a.getEstados().iterator();
 		ArrayList<String> nEstados=new ArrayList<String>();
