@@ -1,0 +1,4 @@
+11/12/2010
+ -Lo minimo para que la aplicación funcione en modo gráfico son los directorios:
+      * src, XML, imagenes
+ -Se han añadido las clases LanzadorConsola y VistaConsola, pero aún no se han probado.
