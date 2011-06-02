@@ -1,0 +1,11 @@
+<authomata>
+	<RExpr>
+		<item>(a+b)*+c</item>
+	</RExpr>
+	<alphabet>
+		<item>a</item>
+		<item>b</item>
+		<item>c</item>
+		<item>/</item>
+	</alphabet>
+</authomata>
