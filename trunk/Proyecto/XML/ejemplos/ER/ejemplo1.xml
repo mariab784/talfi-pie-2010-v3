@@ -1,0 +1,9 @@
+<ER>
+	<RExpr>
+		<item>a+b</item>
+	</RExpr>
+	<alphabet>
+		<item>a</item>
+		<item>b</item>
+	</alphabet>
+</ER>
