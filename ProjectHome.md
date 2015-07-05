@@ -1,0 +1,1 @@
+Se pretende crear una herramienta oritentada a la enseñanza de la asignatura "Teoría de Autómatas y Lenguajes Formales". En esta versión (la tercera) pretendemos crear un interfaz en modo texto para dicha herramienta, ya que posteriormente generaremos un repositorio de ejercicios web que puedan ser enganchados con la plataforma Moodle.
